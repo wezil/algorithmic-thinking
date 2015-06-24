@@ -11,13 +11,16 @@ Author: Weikang Sun
 Date: 6/23/15
 
 CodeSkulptor source:
-http://www.codeskulptor.org/#user40_7TXMr52VHl_3.py
+http://www.codeskulptor.org/#user40_7TXMr52VHl_4.py
 """
 
 # sample graphs for module 2
 import alg_module2_graphs as alg_graphs
 # Queue class from PoC
 import poc_queue
+
+import codeskulptor
+codeskulptor.set_timeout(600)
 
 
 def bfs_visited(ugraph, start_node):
